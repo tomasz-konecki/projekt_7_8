@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background-color: rgb(238, 235, 238);
+  box-sizing: border-box;
+}
+
 .jumbotron {
   background: #fff url('../img/desk-1.jpeg') 0/cover no-repeat;
-  height: 700px;
+  height: 800px;
+  max-width: 1355px;
+  margin: 0 auto;
 }
 
 header {
@@ -16,7 +24,7 @@ nav a {
   color: white;
 }
 
-h1, h3 {
+h1, h3.meet {
   color: #fff;
 }
 
@@ -64,14 +72,6 @@ h3.meet {
   margin: auto;
 }
 
-.row {
-  border: 2px dotted purple;
-}
-
-.row div {
-  /* border: 2px solid teal; */
-}
-
 .row .golden {
   color: gold;
 }
@@ -84,5 +84,15 @@ h3.meet {
 @media(min-width: 576px) {
   header {
     margin-top: -50px;
+  }
+
+}
+
+@media(max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3.meet {
+    font-size: 50px;
   }
 }
