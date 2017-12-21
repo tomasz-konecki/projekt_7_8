@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-
 .jumbotron {
   background: #fff url('../img/desk-1.jpeg') 0/cover no-repeat;
   height: 700px;
 }
-header {
 
+header {
   margin-bottom: 50px;
 }
 
@@ -21,17 +20,18 @@ h1, h3 {
   color: #fff;
 }
 
-h3 {
-  font-family: Montserrat, sans-serif;
-  font-weight: 700;
-  font-size: 70px;
-}
-
 h1 {
   font-family: DroidSerif;
   font-size: 45px;
   font-style: italic;
   padding-bottom: 30px;
+}
+
+h3.meet {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  padding-bottom: 50px;
 }
 
 .greet {
@@ -46,21 +46,22 @@ h1 {
   letter-spacing: 2px;
   display: flex;
 }
+
 .golden span {
   margin: auto;
 }
 
-
-.btn-primary {
-  border-radius: 3px;
-  background-color: #fed136;
-  width: 240px;
-  height: 65px;
-  margin: auto;
+.btn-container {
+  display: flex;
 }
 
 .btn-more {
-  border: 1px solid green;
+  width: 240px;
+  height: 65px;
+  border-radius: 3px;
+  background-color: #fed136;
+  border: none;
+  margin: auto;
 }
 
 .row {
@@ -81,10 +82,7 @@ h1 {
 } */
 
 @media(min-width: 576px) {
-
-
   header {
     margin-top: -50px;
   }
-
 }
