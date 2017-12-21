@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.jumbotron {
+  background: #fff url('../img/desk-1.jpeg') 0/cover no-repeat;
+  height: 700px;
+}
+header {
+
+  margin-bottom: 50px;
+}
+
+nav a {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+h1, h3 {
+  color: #fff;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+h1 {
+  font-family: DroidSerif;
+  font-size: 45px;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.greet {
+  padding-top: 150px;
+}
+
+.golden {
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  color: gold;
+  font-size: 22px;
+  letter-spacing: 2px;
+  display: flex;
+}
+.golden span {
+  margin: auto;
+}
+
+
+.btn-primary {
+  border-radius: 3px;
+  background-color: #fed136;
+  width: 240px;
+  height: 65px;
+  margin: auto;
+}
+
+.btn-more {
+  border: 1px solid green;
+}
+
+.row {
+  border: 2px dotted purple;
+}
+
+.row div {
+  /* border: 2px solid teal; */
+}
+
+.row .golden {
+  color: gold;
+}
+
+/* hr {
+  transform: rotate(90deg);
+  width: 120%;
+} */
+
+@media(min-width: 576px) {
+
+
+  header {
+    margin-top: -50px;
+  }
+
+}
