@@ -11,7 +11,7 @@ body {
 }
 
 .jumbotron {
-  background: #fff url('../img/desk-1.jpeg') 0/cover no-repeat;
+  background: #fff url('../img/desk-1.jpg') 0/cover no-repeat;
   min-height: 700px;
   margin: 0 auto;
 }
@@ -95,7 +95,8 @@ h3.meet {
 }
 
 .services-title p,
-.portfolio-title p {
+.portfolio-title p,
+.photo-subtitle p {
   font-style: italic;
   color: #777;
 }
@@ -111,7 +112,8 @@ h3.meet {
   padding-top: 15px;
 }
 
-.feature h6 {
+.feature h6,
+.photo-subtitle h6 {
   font-weight: bold;
 }
 
@@ -135,16 +137,41 @@ h3.meet {
 
 .portfolio {
   background: #f4f4f4;
-  height: 800px;
+  min-height: 800px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(15, 181, 210);
 }
 
 .portfolio .portfolio-title {
   padding-top: 100px;
 }
-/* hr {
-  transform: rotate(90deg);
-  width: 120%;
-} */
+
+.portfolio .gallery {
+  padding-top: 30px;
+}
+
+.portfolio .gallery-item {
+  width: 290px;
+  height: 395px;
+  margin-right: 20px;
+  background: #fff;
+  padding: 0;
+}
+
+.gallery-item .photo-box {
+  height: 300px;
+  background: lightgray;
+}
+
+.gallery-item .photo-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.photo-subtitle p {
+  font-size: 12px;
+}
+
 
 @media(min-width: 576px) {
   header {
@@ -185,6 +212,10 @@ h3.meet {
 }
 @media(max-width: 340px) {
   .feature p {
-    padding-left: 15px;
+    padding-left: 20px;
   }
 }
+/* hr {
+  transform: rotate(90deg);
+  width: 120%;
+} */
