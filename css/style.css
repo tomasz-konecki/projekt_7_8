@@ -4,12 +4,13 @@
 body {
   background-color: rgb(238, 235, 238);
   box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
 }
 
 .jumbotron {
   background: #fff url('../img/desk-1.jpeg') 0/cover no-repeat;
-  height: 800px;
-  max-width: 1355px;
+  height: 700px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -18,13 +19,11 @@ body {
 } */
 
 header {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-nav a {
-  font-family: Montserrat, sans-serif;
+nav-item {
   font-size: 16px;
-  font-weight: 700;
   color: white;
 }
 
@@ -40,7 +39,6 @@ h1 {
 }
 
 h3.meet {
-  font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 70px;
   padding-bottom: 90px;
@@ -80,6 +78,12 @@ h3.meet {
   color: gold;
 }
 
+.services {
+  max-width: 1400px;
+  height: 570px;
+  background-color: lightblue;
+}
+
 /* hr {
   transform: rotate(90deg);
   width: 120%;
@@ -87,7 +91,7 @@ h3.meet {
 
 @media(min-width: 576px) {
   header {
-    margin-top: -50px;
+    margin-top: -30px;
   }
 
 }
@@ -99,4 +103,8 @@ h3.meet {
   h3.meet {
     font-size: 50px;
   }
+  .nav-item{
+    font-size: 11px;
+  }
+
 }
