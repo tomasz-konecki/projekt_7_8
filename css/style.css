@@ -141,6 +141,11 @@ h3.meet {
 .portfolio .portfolio-title {
   padding-top: 100px;
 }
+
+.portfolio .gallery .gallery-item {
+  border: 1px solid red;
+}
+
 /* hr {
   transform: rotate(90deg);
   width: 120%;
