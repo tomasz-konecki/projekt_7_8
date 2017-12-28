@@ -7,7 +7,8 @@ body {
 }
 
 .layout {
-  max-width: 1400px;
+  max-width: 1360px;
+  padding: 0;
 }
 
 .jumbotron {
