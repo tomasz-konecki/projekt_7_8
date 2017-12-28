@@ -135,7 +135,7 @@ h3.meet {
 
 .portfolio {
   background: #f4f4f4;
-  height: 800px;
+  min-height: 1100px;
 }
 
 .portfolio .portfolio-title {
@@ -143,7 +143,19 @@ h3.meet {
 }
 
 .portfolio .gallery .gallery-item {
-  border: 1px solid red;
+  background: #fff;
+  width: 290px;
+  height: 395px;
+  padding: 0;
+}
+
+.portfolio .gallery .photo-box {
+  height: 300px;
+}
+
+.portfolio .gallery .photo-box img {
+  width: 100%;
+  height: 100%;
 }
 
 /* hr {
