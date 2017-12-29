@@ -17,10 +17,6 @@ body {
   margin: 0 auto;
 }
 
-/* .column {
-  border: 1px solid teal;
-} */
-
 header {
   margin-bottom: 20px;
 }
@@ -89,14 +85,12 @@ h3.meet {
   padding-top: 110px;
 }
 
-.services-title h3,
-.portfolio-title h3 {
+.services-title h3, .portfolio-title h3 {
   font-weight: 700;
   font-size: 40px;
 }
 
-.services-title p,
-.portfolio-title p {
+.services-title p, .portfolio-title p {
   font-style: italic;
   color: #777;
 }
@@ -159,10 +153,24 @@ h3.meet {
   height: 100%;
 }
 
-/* hr {
+.about {
+  background: rgb(249, 249, 249);
+  border: 1px solid teal;
+}
+
+.about header {
+  padding: 100px 0 50px;
+  border: 1px solid red;
+}
+
+.about header h3 {
+  font-weight: 700;
+}
+
+hr {
   transform: rotate(90deg);
   width: 120%;
-} */
+}
 
 @media(min-width: 576px) {
   header {
@@ -184,11 +192,13 @@ h3.meet {
     /* height: 850px; */
   }
 }
+
 @media(min-width: 768px) {
   .services {
     padding-bottom: 0;
   }
 }
+
 @media(min-width: 677px) {
   .services {
     min-height: 650px;
@@ -201,6 +211,7 @@ h3.meet {
     height: 1000px;
   }
 }
+
 @media(max-width: 340px) {
   .feature p {
     padding-left: 15px;
