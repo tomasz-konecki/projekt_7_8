@@ -167,10 +167,14 @@ h3.meet {
   font-weight: 700;
 }
 
-hr {
-  transform: rotate(90deg);
-  width: 120%;
+.about .under .box {
+  border: 1px solid orange;
+  min-height: 800px;
+  /* position: relative; */
+  /* z-index: -1; */
 }
+
+
 
 @media(min-width: 576px) {
   header {
