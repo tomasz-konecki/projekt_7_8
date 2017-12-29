@@ -156,24 +156,70 @@ h3.meet {
 .about {
   background: rgb(249, 249, 249);
   border: 1px solid teal;
+  min-height: 1100px;
+  position: absolute;
+  z-index: -2;
+  width: 100%;
 }
 
 .about header {
   padding: 100px 0 50px;
   border: 1px solid red;
+  margin-bottom: 0;
 }
 
 .about header h3 {
   font-weight: 700;
 }
 
-.about .under .box {
-  border: 1px solid orange;
-  min-height: 800px;
-  /* position: relative; */
-  /* z-index: -1; */
+.about .under {
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+  width: 100%;
+  min-height: 720px;
 }
 
+.about .under .box-line {
+  border-left: 1px solid #f1f1f1;
+  border-left: 1px solid orange;
+}
+
+.above [class*='col-'] {
+  min-height: 150px;
+  border: 1px solid blue;
+  padding: 0;
+
+}
+
+.above h6 {
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+.above p {
+  font-size: 12px;
+}
+
+.above .photo {
+  border: 4px solid green;
+  height: 100%;
+  width: 100%;
+
+}
+
+.above .photo img {
+  width: 90%;
+  height: 100%;
+  border-radius: 50%;
+  border: 7px solid #f1f1f1;
+}
+
+
+
+
+/* breakpoints */
 
 
 @media(min-width: 576px) {
@@ -216,8 +262,27 @@ h3.meet {
   }
 }
 
+@media(min-width: 576px) and (max-width: 767px) {
+  .about .above .photo img {
+    height: 50%;
+    position: absolute;
+    top: 15px;
+  }
+}
+
+@media(max-width: 575px) {
+  .about .above .photo img {
+    width: 30%
+  }
+}
+
 @media(max-width: 340px) {
   .feature p {
     padding-left: 15px;
   }
+}
+
+@media (min-width: 1200px) {
+  .about .above .photo img {
+    width: 80%;
 }
