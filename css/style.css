@@ -178,7 +178,7 @@ h3.meet {
 }
 
 .about .under .box-line {
-  border-left: 1px solid #f1f1f1;
+  border-left: 2px solid #f0f0f0;
 }
 
 .about .above {
@@ -320,6 +320,10 @@ h3.meet {
   .vinyl {
     width: 80%;
   }
+  .team-gallery .team-item {
+    margin-right: 100px;
+  }
+
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
