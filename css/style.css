@@ -189,7 +189,7 @@ h3.meet {
 
 .about .above [class*='col-'] {
   min-height: 150px;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   padding: 0;
 
 }
@@ -219,8 +219,6 @@ h3.meet {
 }
 
 .about .above .yellow-circle {
-  width: 80%;
-  height: 100%;
   background: #fed136;
   color: #fff;
   border-radius: 50%;
@@ -245,7 +243,7 @@ h3.meet {
   }
   .about .above .yellow-circle {
     height: 75%;
-    width: 80%;
+    width: 90%;
   }
   .about .under {
     height: 800px;
@@ -260,13 +258,13 @@ h3.meet {
     height: 224px;
   }
   .about .above .photo {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
     margin: 0 auto;
   }
   .about .above .yellow-circle {
-    height: 60%;
-    width: 55%;
+    height: 65%;
+    width: 60%;
   }
   .about .under {
     height: 1000px;
@@ -316,16 +314,29 @@ h3.meet {
 }
 
 @media(min-width: 576px) and (max-width: 767px) {
+  .about .above [class*='col-'] {
+    height: 330px
+  }
   .about .above .photo img {
     height: 50%;
     position: absolute;
     top: 15px;
+  }
+  .about .under .box-line {
+    height: 1300px;
+  }
+  .about .above .yellow-circle {
+    height: 50%;
+    width: 90%;
   }
 }
 
 @media(max-width: 575px) {
   .about .above .photo img {
     width: 30%
+  }
+  .about .above .even {
+    flex-direction: column-reverse;
   }
 }
 
@@ -338,4 +349,9 @@ h3.meet {
 @media(min-width: 1200px) {
   .about .above .photo img {
     width: 80%;
+  }
+  .about .above .yellow-circle {
+    width: 75%;
+    height: 70%;
+  }
 }
