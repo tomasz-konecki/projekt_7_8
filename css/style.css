@@ -217,12 +217,68 @@ h3.meet {
 }
 
 .team {
-  position: absolute;
+  min-height: 100vh;
+  background: #f6f6f6;
+  border: 1px solid blue;
 }
 
+.team header {
+  padding-top: 100px;
+}
 
+.team header h2,
+.team-gallery .team-item h6 {
+  font-weight: 700;
+}
 
+.team header p,
+.team-gallery .team-item p,
+.team footer p  {
+  font-size: 12px;
+}
 
+.team header p {
+  font-style: italic;
+}
+
+.team-gallery .team-item {
+  border: 1px solid teal;
+  min-width: 220px;
+  max-width: 220px;
+  height: 330px;
+  padding: 0;
+}
+
+.team-gallery .team-item span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.team-gallery .team-item i {
+  line-height: 27px;
+}
+
+.team .team-gallery .team-item .photo {
+  border: 1px solid orange;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+.team .team-gallery .team-item .photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid khaki;
+
+}
+
+.team footer {
+  padding-top: 30px;
+}
 
 /* BREAKPOINTS */
 
