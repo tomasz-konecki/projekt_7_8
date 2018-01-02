@@ -300,6 +300,22 @@ h3.meet {
   height: 30px;
 }
 
+.contact {
+  background: #222;
+  min-height: 680px;
+}
+
+.contact h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.contact p {
+  color: #777;
+  font-style: italic;
+}
+
+
 /* BREAKPOINTS */
 
 @media(min-width: 992px) {
@@ -348,6 +364,9 @@ h3.meet {
 @media(min-width: 576px) {
   header {
     margin-top: -30px;
+  }
+  .logos {
+    margin-bottom: 30px;
   }
 }
 
@@ -432,6 +451,9 @@ h3.meet {
     width: 125px;
     height: 125px;
     margin-top: 30px;
+  }
+  .logos {
+    padding-bottom: 30px;
   }
 }
 
